@@ -3,7 +3,7 @@ const orginalArray=[1,2,3,4,5,6,7,8,9];
 console.log(orginalArray);
 
 
-Array.prototype.reverse =function(){
+Array.prototype.myReverse =function(){
     let low=0;
     let high=this.length-1;
     while(low<high)
@@ -16,6 +16,6 @@ Array.prototype.reverse =function(){
     }
 }
 
-orginalArray.reverse();
+orginalArray.myReverse();
 
 console.log(orginalArray);
